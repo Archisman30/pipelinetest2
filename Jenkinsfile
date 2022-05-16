@@ -8,7 +8,7 @@ stages{
  git 'https://github.com/Archisman30/simple-java-maven-app.git'
 }
 }
- stage('BULD'){
+ stage('BUILD'){
  steps{
   sh 'maven clean package'
 }
