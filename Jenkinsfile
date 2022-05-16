@@ -15,12 +15,12 @@ stages{
 }
  stage('TEST'){
  steps{
-  sh 'java -jar target/ *.jar'
+  sh 'java -jar target/*.jar'
 }
 }
  stage('ARCHIVE'){
  steps{
- sh 'target/ *.jar'
+ sh 'target/*.jar'
 }
 }
 }
