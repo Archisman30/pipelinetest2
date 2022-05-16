@@ -10,7 +10,7 @@ stages{
 }
  stage('BUILD'){
  steps{
-  sh 'maven clean package'
+  sh 'mvn clean package'
 }
 }
  stage('TEST'){
