@@ -5,7 +5,7 @@ agent any
 stages{
  stage('SCM'){
  steps{
-  git 'https://github.com/Archisman30/simple-java-maven-app.git
+ git 'https://github.com/Archisman30/simple-java-maven-app.git'
 }
 }
  stage('BULD'){
