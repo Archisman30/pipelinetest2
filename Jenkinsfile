@@ -20,7 +20,7 @@ stages{
 }
  stage('ARCHIVE'){
  steps{
- echo'ARCHIVE DONE'
+ echo'ARCHIVE DONE from local'
 }
 }
 }
