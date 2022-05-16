@@ -20,7 +20,7 @@ stages{
 }
  stage('ARCHIVE'){
  steps{
- sh 'target/*.jar'
+ echo'ARCHIVE DONE'
 }
 }
 }
