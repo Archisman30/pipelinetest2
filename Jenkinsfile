@@ -1,6 +1,6 @@
 pipeline{
 
-agent any
+node('linux_slave') {
 
 stages{
  stage('SCM'){
@@ -25,6 +25,7 @@ stages{
  steps{
  echo'ARCHIVE DONE from local'
  archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
+}
 }
 }
 }
