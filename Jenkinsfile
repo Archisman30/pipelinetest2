@@ -1,6 +1,6 @@
 pipeline{
 
-node('linux_slave') {
+agent any
 
 stages{
  stage('SCM'){
@@ -29,4 +29,4 @@ stages{
 }
 }
 }
-}
+
