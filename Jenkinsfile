@@ -21,6 +21,7 @@ stages{
  stage('ARCHIVE'){
  steps{
  echo'ARCHIVE DONE from local'
+ archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
 }
 }
 }
